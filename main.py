@@ -5,7 +5,7 @@ class Bot(Strategy):
     def __init__(self) -> None:
         self.author_netid = "" # Your netid here
         self.strategy_name = "" # Name of your strategy here
-        self.stretegy_desc = "" # Description of your strategy here
+        self.strategy_desc = "" # Description of your strategy here
 
     def begin(self) -> Move:
         # Make your initial move here
